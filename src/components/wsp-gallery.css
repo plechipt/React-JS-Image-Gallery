@@ -4,12 +4,12 @@
   gap: 10px;
   align-items: center;
   justify-content: center;
-  max-width: 620px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 .galleryWrap .single {
-  width: 200px;
+  width: 265px;
   cursor: pointer;
 }
 
@@ -36,7 +36,10 @@
   height: 100%;
 }
 
-.sliderWrap .btnClose, .sliderWrap .btnPrev, .sliderWrap .btnNext {
+.sliderWrap .btnClose,
+.sliderWrap .btnPrev,
+.sliderWrap .btnNext {
+  font-size: 3em;
   position: fixed;
   cursor: pointer;
   opacity: 0.6;
@@ -44,7 +47,9 @@
   z-index: 9999;
 }
 
-.btnNext:hover, .btnPrev:hover, .btnClose:hover {
+.btnNext:hover,
+.btnPrev:hover,
+.btnClose:hover {
   opacity: 1;
 }
 
@@ -79,5 +84,5 @@
   pointer-events: none;
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */  
+  user-select: none; /* Standard syntax */
 }
